@@ -7,11 +7,11 @@ a = 5;
 b = 3;
 int main(void)
 {
-	printf("\º¯¼ö A¿¡ ÀúÀåµÈ ¼ýÀÚ´Â %d ÀÔ´Ï´Ù!\n", a);
-	printf("\nº¯¼ö B¿¡ ÀúÀåµÈ ¼ýÀÚ´Â %d ÀÔ´Ï´Ù.\n", b);
-	printf("\nº¯¼ö A¿Í B¸¦ µ¡¼ÀÇÏ¸é %d ÀÔ´Ï´Ù.\n", a+b);
-	printf("\nº¯¼ö A¿Í B¸¦ °ö¼ÀÇÏ¸é %d ÀÔ´Ï´Ù.\n", a*b);
-	printf("\nº¯¼ö A¿Í B¸¦ »¬¼ÀÇÏ¸é %d ÀÔ´Ï´Ù.\n", a-b);
-	printf("\nº¯¼ö A¿Í B¸¦ ³ª´©±âÇÏ¸é %d ÀÔ´Ï´Ù.\n", a/b);
+	printf("\në³€ìˆ˜ Aì— ì €ìž¥ëœ ìˆ«ìžëŠ” %d ìž…ë‹ˆë‹¤!\n", a);
+	printf("\në³€ìˆ˜ Bì— ì €ìž¥ëœ ìˆ«ìžëŠ” %d ìž…ë‹ˆë‹¤.\n", b);
+	printf("\në³€ìˆ˜ Aì™€ Bë¥¼ ë§ì…ˆí•˜ë©´ %d ìž…ë‹ˆë‹¤.\n", a+b);
+	printf("\në³€ìˆ˜ Aì™€ Bë¥¼ ê³±ì…ˆí•˜ë©´ %d ìž…ë‹ˆë‹¤.\n", a*b);
+	printf("\në³€ìˆ˜ Aì™€ Bë¥¼ ëº„ì…ˆí•˜ë©´ %d ìž…ë‹ˆë‹¤.\n", a-b);
+	printf("\në³€ìˆ˜ Aì™€ Bë¥¼ ë‚˜ëˆ„ê¸°í•˜ë©´ %d ìž…ë‹ˆë‹¤.\n", a/b);
 	
 }
